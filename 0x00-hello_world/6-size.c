@@ -8,16 +8,10 @@
 int main(void)
 {
 
-int a;
-long int b;
-long long int c;
-char d;
-float f;
-
-printf("Size of a char: %lu bytes(s)\n", (unsigned long)sizeof(d));
-printf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(a));
-printf("Size of a long int: %lu bytes(s)\n", (unsigned long int)sizeof(b));
-printf("Size of a long long char: %lu bytes(s)\n", (unsigned long)sizeof(c));
-printf("Size of a float: %lu bytes(s)\n", (unsigned long int)sizeof(f));
+printf("Size of a char: %lu bytes(s)\n", (unsigned long)sizeof(char));
+printf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(int));
+printf("Size of a long int: %lu bytes(s)\n", (unsigned long int)sizeof(long int));
+printf("Size of a long long char: %lu bytes(s)\n", (unsigned long)sizeof(long long int));
+printf("Size of a float: %lu bytes(s)\n", (unsigned long int)sizeof(float));
 return (0);
 }
